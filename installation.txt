@@ -1,0 +1,47 @@
+1. (Mac and Linux users) Install VMware (Fusion on Mac). For Linux, you
+can get VMware Player for free from their website. MIT people, for Mac, 
+you can grab VMware Fusion from IS&T's website under the Software section
+(there's a link to a license key you'll need). You can also grab a Windows7 image
+from IS&T and run that under VMware -- just search for Windows (the
+Student version on IS&T seems fine). For Harvard people on a Mac, you can get
+VMware Fusion from any class you are in that uses a virtual machine.
+
+2. Get Visual Studio 2010 from Microsoft Dreamspark
+(https://www.dreamspark.com/student/default.aspx) -- you'll need to
+register with your .edu address there. This is what we use as an
+environment to write/compile/debug code. Install it on Windows and make
+sure to select Visual C# during the installation.
+
+3. If you don't have one, create a github (http://github.com) account
+and send me your username so I can give you access to our codebase.
+Github is the place where we keep all our code. Once I've added you, in
+the upper left corner of the site, you'll be able to switch between your
+personal user and "rfccambridge".
+
+4. Grab a Git client for windows (http://msysgit.github.com/) and
+install it. Git is what we use for version control of our code. Don't
+worry if you haven't used it before -- I'll go over the basics quickly
+at next meeting. Also, if you like nice GUIs, you can install
+TortoiseGIT (https://code.google.com/p/tortoisegit/), which integrates
+GIT nicely with windows explorer.
+
+5. Once you have all that, you should be ready to go. You can grab a
+local version of the code by going to github and finding the
+rfccambridge/rfc repository (https://github.com/rfccambridge/rfc). At
+the top, there are HTTP and SSH links. You can grab the HTTP one and
+"git clone" that into an empty folder on your windows machine. After
+asking for your github password and waiting for a while, you'll see the
+source files in that folder. Try opening
+resources/workspaces/AllProjects.sln and compiling it in Visual Studio.
+
+5.1. If you haven't used version control or git before, there are a ton
+of online tutorials to get you started. This one
+(http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/)
+seems particularly easy to follow and shows you what you can do. In any
+case, taking some time to learn version control should definitely pay
+off if you plan to do any software development in the real world.
+
+6. Installing the runtimes for the RefBox. The RefBox is the application that
+allows us to manually referee a game. It lives in the main source tree under
+resources/RefBox. There are two GTK library runtimes in that folder that you
+need to install if you want to run a refbox.
